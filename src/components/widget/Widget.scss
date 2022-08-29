@@ -1,0 +1,60 @@
+.widget{
+    display: flex;
+justify-content: space-between;
+flex:1;
+padding: 10px;
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.27);
+box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.27);
+border-radius: 10px;
+height: 150px;
+transition: all 0.2s ease-in-out;
+ &:hover{
+    box-shadow: 5px 6px 15px 3px rgba(0,0,0,0.27);
+
+
+ }
+.left,.right{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+.title{
+    font-weight: bold;
+font-size: 15px;
+color: rgb(160,160,160);
+
+}
+.counter{
+    font-size: 25px;
+    font-weight: 400;
+}
+.link{
+    width: max-content;
+font-size: 15px;
+border-bottom: 1px solid gray;
+}
+.persentage{
+display: flex;
+align-items: center;
+font-size: 14px;
+&.positive{
+    color: green;
+}
+&.negative{
+    color: red;
+}
+}
+.icon{
+font-size:27px;
+padding: 5px;
+// background-color: rgb(199, 108, 199);
+border-radius: 5px;
+align-self: flex-end;
+
+}
+}
+
+
+
+
+}
